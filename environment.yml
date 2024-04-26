@@ -1,0 +1,10 @@
+name: doge
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - ipython
+  - jupyter
+  - pip:
+    - -r requirements.txt
